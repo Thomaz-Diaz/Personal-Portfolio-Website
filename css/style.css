@@ -1,3 +1,11 @@
+/*Local Variables*/
+:root {
+--central-width : 900px;
+
+}
+
+
+
 body {
   background-color: rgb(195, 195, 195);
   margin: 0;
@@ -9,7 +17,7 @@ p {
 }
 /*Art Banner*/
 .top-banner {
-  width: 900px;
+  width: var(--central-width);
   height: 200px;
   margin: auto;
   border: 2px solid black;
@@ -17,7 +25,7 @@ p {
 }
 /*Nav Bar*/
 .nav-container {
-  width: 900px;
+  width: var(--central-width);
   height: 50px;
   margin: auto;
   margin-top: 10px;
@@ -31,7 +39,7 @@ p {
 }
 /*Center Page Container*/
 .mid-container {
-  width: 900px;
+  width: var(--central-width);
   height: 100vh;
   margin: auto;
   margin-top: 10px;
@@ -39,7 +47,7 @@ p {
   background-color: rgb(242, 242, 242);
 }
 .footer {
-  width: 900px;
+  width: var(--central-width);
   height: auto;
   margin: auto;
   margin-top: 10px;
